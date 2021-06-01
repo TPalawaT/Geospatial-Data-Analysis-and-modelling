@@ -23,11 +23,11 @@ This will the company reduce cancellations and hence, increasing revenue.</br>
 
 ## Future Developments
 This was the first iteration of what a surge price model might be for a company.</br>
-A few ideas on how it can be improved. The important thing to note here is that, all these developments which are mentioned are possible only if those data points are available.</br>
-Instead of taking area as fixed unit, we can forget about area and if data can be provided for driver’s location, a surge fee can be calculated on that basis.</br>
-Instead of using Area-Id, a particular location can be used and rider’s location can be mapped with the driver and based on that, using the distance and already mentioned algorithm to find user’s surge. This will help to find if the user is in a far away location outside the city with no drivers nearby.
-One thing that I missed here is using spatial data. This can be used in continuation with the previous point.</br>
-Next, this model works for point to point travel since outstation and rental do not have enough data point to make a sustainable model and might even increase cancellation instead of increasing revenue.</br>
+A few ideas on how it can be improved. The important thing to note here is that, all these developments which are mentioned below are possible only if those data points are available.</br>
+1. Instead of taking area as fixed unit, we can forget about area and if data can be provided for driver’s location, a surge fee can be calculated on that basis.</br>
+2. Instead of using Area-Id, a particular location can be used and rider’s location can be mapped with the driver and based on that, using the distance and already mentioned algorithm to find user’s surge. This will help to find if the user is in a far away location outside the city with no drivers nearby.</br>
+3. One thing that I missed here is using spatial data. This can be used in continuation with the previous point.</br>
+4. Next, this model works for point to point travel since outstation and rental do not have enough data point to make a sustainable model and might even increase cancellation instead of increasing revenue.</br>
 
 ## Note
 Please run the python code in 64-bit software. Please refer to this, https://stackoverflow.com/questions/21033038/scikits-learn-randomforrest-trained-on-64bit-python-wont-open-on-32bit-python
