@@ -6,6 +6,7 @@ There are 2 main python files which will be used as surge calculator, surge.py a
 Another important file is ‘cancellation_model.sav’ which stores the trained model for predicting if the user might cancel the ride. This prediction model was created using the provided data.</br>
 Next, there is an excel file, ‘fin.xlsx’ which is a modified version of ‘data.xlsx’ and is used to calculate surge. 'fin.xlsx' contains data in a format which would be required for predcition and further calculation of surge price. Plus, it contains some additional derived features from 'data.xlsx' in a format which is required for surge prediction.</br>
 A file named ‘main.ipynb’ and contains code for EDA and feature engineering. This file is not as extensively commented out since this was written on a experimental basis.</br>
+'main.ipynb' contains some interesting infographics which give a sense of the data but will require a lot of scrolling.</br>
 
 ## Algorithm Used to calculate Surge
 The algorithm is fairly simple to understand. First it loads up the data and then makes up two groupings. First is made on basis of '['week', 'from_area_id', 'start_hour']' where week is week of year, from_area_id is the starting point of travel and start hour is the hour in which ride will start.
