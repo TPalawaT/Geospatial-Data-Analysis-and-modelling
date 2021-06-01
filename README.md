@@ -2,7 +2,7 @@
 Predict and calculate surge pricing during peak hours for companies such as Uber using only past data.
 
 ## Overview
-There are 2 main python files which will be used as surge calculator, surge.py and predictor.py. 'surge.py' is used to calculate and predict surge. 'predict.py' predicts if the ride might be cancelled. The output of 'predict.py' is used as input to 'surge.py' which calculates cab surge price'.</.</br>
+There are 2 main python files which will be used as surge calculator, surge.py and predictor.py. 'surge.py' is used to calculate and predict surge. 'predict.py' predicts if the ride might be cancelled. The output of 'predict.py' is used as input to 'surge.py' which calculates cab surge price'.</br>
 Another important file is ‘cancellation_model.sav’ which stores the trained model for predicting if the user might cancel the ride. This prediction model was created using the provided data.</br>
 Next, there is an excel file, ‘fin.xlsx’ which is a modified version of ‘data.xlsx’ and is used to calculate surge. 'fin.xlsx' contains data in a format which would be required for predcition and further calculation of surge price. Plus, it contains some additional derived features from 'data.xlsx' in a format which is required for surge prediction.</br>
 A file named ‘main.ipynb’ and contains code for EDA and feature engineering. This file is not as extensively commented out since this was written on a experimental basis.</br>
